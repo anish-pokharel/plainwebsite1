@@ -247,6 +247,7 @@ img {
 
 .contact-left {
     margin-bottom: 5rem;
+    width: 50%;
 }
 
 .contact-left .lead {
@@ -284,4 +285,28 @@ img {
 
 .contact-left .btn-submit:hover {
     background: #000;
+}
+
+.contact-right {
+    margin-left: 3rem;
+    width: 50%;
+
+}
+
+.contact-right img {
+    border-radius: 15px;
+
+}
+
+.contact-right img:hover {
+    transform: scale(0.9);
+
+}
+
+
+@media(min-width: 768px) {
+    .contact-right {
+        padding-left: 3rem;
+        width: 50%;
+    }
 }
