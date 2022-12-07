@@ -55,6 +55,29 @@ h3 {
     margin-bottom: 2rem;
 }
 
+.py-7 {
+    padding: 7rem 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.lead {
+    opacity: 0.8;
+    padding: 1rem 0;
+    font-size: 1.7rem;
+    font-weight: 300;
+    line-height: 1.8;
+}
+
 
 /* header */
 #header {
@@ -103,4 +126,19 @@ h3 {
 
 .social-media li a:hover {
     opacity: 0.9;
+}
+
+/* about section design */
+.about-left {
+    height: 480px;
+    margin-bottom: 4rem;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.btn-down {
+    font-size: 3rem;
+    display: inline-block;
+    margin-top: 1rem;
+    transition: var(--transition);
 }
