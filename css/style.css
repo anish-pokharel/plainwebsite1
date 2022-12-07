@@ -1,1 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --transition: all 300ms ease-in-out;
+    --darkcolor: #332e29;
+    --lightcolor: #fff;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--darkcolor);
+}
+
+.vh-100 {
+    min-height: 100vh;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* header */
+#header {
+    background: url("../images/header-banner.jpg") center/cover no-repeat fixed;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+#header .container {
+    width: 100%;
+}
+
+.header-content {
+    padding-bottom: 4rem;
+}
+
+.header-content h1 {
+    font-size: 4.5rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: var(--lightcolor);
+}
+
+.header-content h3 {
+    color: var(--lightcolor);
+    margin-top: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
