@@ -142,3 +142,29 @@ img {
     margin-top: 1rem;
     transition: var(--transition);
 }
+
+.btn-down:hover {
+    opacity: 0.8;
+    transform: translateY(5px);
+}
+
+.title {
+    margin-bottom: 5rem;
+}
+
+.title h2 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    position: relative;
+}
+
+.title h2::after {
+    position: absolute;
+    content: "";
+    top: 120%;
+    left: 0;
+    width: 70px;
+    height: 4px;
+    background-color: var(--darkcolor);
+}
