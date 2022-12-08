@@ -342,6 +342,54 @@ img {
     transition: var(--transition);
 }
 
+#footer {
+    background-color: var(--darkcolor);
+    color: var(--lightcolor);
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content h3 {
+    color: var(--lightcolor);
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+.footer-content ul {
+    flex-direction: row;
+
+}
+
+.footer-content ul li a:hover {
+    opacity: 0.7;
+}
+
+.footer-content ul li a {
+    color: var(--lightcolor);
+    font-size: 1.5rem;
+    transition: var(--transition);
+}
+
+.footer-content ul li {
+    margin: .5rem 1rem;
+}
+
+.footer-content>div:first-child {
+    margin-bottom: 3rem;
+}
+
+
+.footerimg {
+    width: 100px;
+    height: 100px;
+    margin: 5rem auto;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+
 
 @media(min-width: 768px) {
     .contact-right {
