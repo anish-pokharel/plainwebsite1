@@ -334,6 +334,7 @@ img {
 .insta-grid>div img {
     height: 100%;
     object-fit: cover;
+    border-radius: 25px;
 }
 
 .insta-grid>div :hover {
